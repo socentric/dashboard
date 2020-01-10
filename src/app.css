@@ -1,0 +1,15 @@
+
+
+:root {
+  --barSize: 7px;
+}
+
+#root {
+  display: flex;
+}
+
+.workspace {
+  display: flex;
+  flex-direction: column;
+}
+

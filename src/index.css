@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  background: #000;
+}
+
+nav, section, article {
+  display: block;
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+button:active, button:focus{
+  outline: none;
+}
+

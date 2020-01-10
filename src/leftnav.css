@@ -1,0 +1,79 @@
+.leftnav {
+  background: #273142;
+  color: #c7d0dc;
+  max-width: 155px;
+  overflow: hidden;
+  height: 100%;
+  padding: 0;
+}
+
+.leftnav.light {
+  background: #147ba6;
+  color: #fff;
+}
+
+.leftnav_section {
+  margin-top: 10px;
+  position: relative;
+  border-bottom: solid 1px #000;
+}
+
+.light .leftnav_section {
+  border-bottom: solid 1px #fff;
+}
+
+.leftnav_button {
+  font-size: 13px;
+  font-family: helvetica, sans-serif;
+  font-weight: 320;
+  line-height: 1.95;
+  width: 100%;
+  background: transparent;
+  color: inherit;
+  display: flex;
+  padding: 7px 12px;
+  border: 0;
+  margin: 0 0 10px;
+}
+
+.leftnav_button:hover {
+  background: rgba(255, 255, 255, 0.1);; 
+}
+
+.leftnav_button-icon {
+  margin: 0 12px 0 0;
+}
+
+.leftnav_section-logo {
+  margin-top: 8px;
+  position: relative;
+  border-bottom: none !important;
+}
+
+.leftnav_button-logo {
+  width: 28px;
+  height: 28px;
+  overflow: hidden;
+  background: rgb(126, 211, 33);
+  color: rgb(126, 211, 33);
+  border-radius: 50%;
+  margin: 8px 11px 5px;
+  padding: 5px;
+  opacity: 1;
+}
+
+.leftnav_button-logo:hover {
+  background: rgb(126, 211, 33);
+  opacity: 0.7;
+}
+
+.leftnav_logo-image {
+  width: 18px;
+}
+
+.leftnav_logo-text {
+  position: absolute;
+  top: 4px;
+  left: 47px;
+  font-size: 10px;
+}

@@ -1,0 +1,79 @@
+.workspace {
+  background: #000;
+}
+
+.workspace.light {
+  background: #fff;
+}
+
+main {
+  position: relative;
+  visibility: hidden;
+  opacity: 0;
+  padding: var(--barSize);
+}
+
+.row {
+  position: relative;
+}
+
+.panel {
+  flex: 1;
+  position: relative;  
+}
+
+.resizable-container {
+  height: 100%;
+}
+
+.resize-bar {
+  position: absolute;
+  height: var(--barSize);
+  width: var(--barSize);
+  top: 0;
+  left: 0;
+  background: #000;
+}
+
+.light .resize-bar {
+  background: #fff;
+}
+
+.resize-bar-column {
+  height: 100%;
+  cursor: col-resize !important;
+}
+
+.resize-bar-row {
+  width: 100%;
+  cursor: row-resize !important;
+}
+
+.layout-column {
+  display: flex;
+  flex: 1 1 100%;
+  max-width: 100%;
+  flex-direction: column;
+}
+
+.layout-row {
+  display: flex;
+  flex: 1 1 100%;
+  flex-direction: row;
+}
+
+#panel-1 {
+  background: #ce93d8;
+}
+
+#panel-2 {
+  background: #80deea;
+}
+
+#panel-3 {
+  background: #a5d6a7;
+}
+
+#panel-4 {
+  background: #ffcc80;
+}
